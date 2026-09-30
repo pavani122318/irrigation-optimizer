@@ -1,0 +1,27 @@
+QUANTUM-ASSISTED IRRIGATION OPTIMIZATION
+========================================
+
+Water budget: 175 L
+Number of plots: 10
+Number of QUBO variables: 18
+QAOA reps: 1
+
+CLASSICAL EXACT
+---------------
+Selected plots: P01, P03, P04, P05, P06, P10
+Water used: 175 L
+Objective value: -4.485500
+
+QAOA
+----
+Sampled bitstring: 000000001101111010
+Selected plots: P02, P04, P05, P06, P07, P09, P10
+Water used: 175 L
+Objective value: -4.302500
+Optimizer success: True
+QAOA objective gap vs exact: 0.183000
+
+NOTE
+----
+QAOA is run on a local statevector simulator. This demonstrates the
+algorithmic workflow; it is not a claim of quantum advantage.

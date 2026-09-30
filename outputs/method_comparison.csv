@@ -1,0 +1,3 @@
+method,objective_value,water_used_liters,selected_plots
+Classical Exact,-4.485500000009779,175,"P01, P03, P04, P05, P06, P10"
+QAOA,-4.302499999990687,175,"P02, P04, P05, P06, P07, P09, P10"
